@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminous Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <h1>Luminous Gallery</h1>
+        <div id="filter-buttons" class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+
+        <div class="image-gallery" id="image-gallery">
+            </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <a class="prev-btn">&#10094;</a>
+        <a class="next-btn">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
